@@ -1,0 +1,45 @@
+class Messages {
+    static readonly HIERARCHIES_DATA_GET_SUCCESSFULLY: any = "Hierarchies data get successfully";
+    static readonly HIERARCHIES_DATA_NOT_FOUND: any = "Hierarchies data not found";
+    static readonly HIERARCHIES_DATA_CREATE_SUCCESSFULLY: any = "Hierarchies data create successfully";
+    static readonly HIERARCHIES_DATA_UPDATE_SUCCESSFULLY: any = "Hierarchies data update successfully";
+    static readonly HIERARCHIES_DATA_GET_BY_ID_ERROR: any = "An error occurred while fetching hierarchies by ID";
+    static readonly NO_HIERARCHIES_FOUND_FOR_PROGRAM: any = "No hierarchies found for the given program";
+    static readonly ERROR_FETCHING_HIERARCHIES_BY_PROGRAM: any = "An error occurred while fetching hierarchies by program";
+    static readonly HIERARCHIES_FETCHED_SUCCESSFULLY: any = "Hierarchies fetched successfully.";
+    static readonly ERROR_FETCHING_HIERARCHIES: any = "An error occurred while fetching hierarchies";
+    static readonly HIERARCHIES_NOT_FOUND: any = "Hierarchies not found";
+    static readonly HIERARCHIES_CODE_ALREADY_IN_USE: any = "Hierarchies code is already in use";
+    static readonly HIERARCHIES_CREATED_SUCCESSFULLY: any = "Hierarchies created successfully";
+    static readonly FAILED_TO_CREATE_HIERARCHIES: any = "Failed to create hierarchies";
+    static readonly HIERARCHY_NOT_FOUND: any = "Hierarchy not found";
+    static readonly HIERARCHY_UPDATED_SUCCESSFULLY: any = "Hierarchy updated successfully";
+    static readonly FAILED_TO_UPDATE_HIERARCHIES: any = "Failed to update hierarchies";
+    static readonly INTERNAL_SERVER_ERROR: any = "Internal Server Error";
+    static readonly RATE_MODEL_FOUND_BUT_NO_HIERARCHIES: any = "Rate model found but no hierarchies associated!";
+    static readonly RATE_MODEL_FOUND_SUCCESSFULLY: any = "Rate model found successfully!";
+    static readonly INTERNAL_SERVER_ERROR_LOWERCASE: any = "Internal server error";
+    static readonly NO_MARKUP_FOUND_FOR_CRITERIA: any = "No sourced_markup found for the provided criteria";
+    static readonly VENDOR_BILL_RATE_MARKUP_RETRIEVED: any = "Vendor bill rate and markup retrieved successfully";
+    static readonly FAILED_TO_RETRIEVE_VENDOR_MARKUP: any = "Failed to retrieve vendor markup";
+    static readonly MISSING_HIERARCHY_IDS_PARAMETER: any = "Missing required query parameter hierarchy_ids.";
+    static readonly NO_MATCHING_HIERARCHIES_FOUND: any = "No matching hierarchies found.";
+    static readonly HIERARCHIES_UPDATED_SUCCESSFULLY: any = "Hierarchies updated successfully.";
+    static readonly PARENT_HIERARCHIES_RETRIEVED_SUCCESSFULLY: any = "Parent hierarchies retrieved successfully.";
+    static readonly NO_PARENT_HIERARCHIES_FOUND: any = "No parent hierarchies found.";
+    static readonly CLIENT_ID_OR_HIERARCHY_ID_REQUIRED: any = "At least client_id or hierarchy_id is required in query parameters";
+    static readonly HIERARCHY_NOT_FOUND_FOR_ID_PROGRAM: any = "Hierarchy not found for the given hierarchy_id and program_id";
+    static readonly USER_NOT_FOUND_FOR_CLIENT_PROGRAM: any = "User not found for given client_id and program_id";
+    static readonly NO_MSP_FOUND_FOR_CRITERIA: any = "No MSP found for the given criteria";
+    static readonly MSP_FETCHED_SUCCESSFULLY: any = "MSP fetched successfully";
+    static readonly ERROR_FETCHING_MSP: any = "An error occurred while fetching MSP";
+    static readonly BAD_REQUEST_EXPECTED_ARRAY: any = "Bad Request - Expected array of hierarchy objects";
+    static readonly HIERARCHY_CODE_ALREADY_EXISTS: any = "Hierarchy code already exists";
+    static readonly BULK_OPERATION_COMPLETED: any = "Bulk operation completed. X created, X failed, X duplicates";
+    static readonly FAILED_TO_BULK_CREATE_HIERARCHIES: any = "Failed to bulk create hierarchies";
+    static readonly USER_NOT_FOUND: any = "User not found";
+    static readonly CLIENT_OR_HIERARCHY_ID_REQUIRED: any = "Client or hierarchy ID required";
+    static readonly NO_MSP_FOUND: any = "No MSP found";
+}
+
+export default Messages;
